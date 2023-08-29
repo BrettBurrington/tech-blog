@@ -1,0 +1,11 @@
+<div class="text-center">
+  <input id="postTitle" value = "{{title}}">
+
+  <textarea id = "postContents">{{contents}}</textarea>
+  <p>Created by {{user.username}} on {{format_date date_created}}</p>
+
+  <p>
+    <button id = "save-btn" data-id = "{{id}}" class="btn btn-primary">Update this post</button>
+  </p>
+</div>
+<script src="/js/editpost.js"></script>
